@@ -1,0 +1,8 @@
+version: '3'
+
+services: 
+
+  app:
+    image: hmullermail/fc_01_goapp
+    build:
+      context: app
